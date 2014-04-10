@@ -18,7 +18,6 @@ public class Insert {
 			String email = "ramon.mendes.bh@gmail.com";
 			String agenda = "igmtbueg2jdgusnu9o580jkbh0@group.calendar.google.com";
 			calendarService.setUserCredentials(email, "1984$umrm@souza");
-//			URL postURL = new URL("http://www.google.com/calendar/feeds/"+email+"/private/full");
 			URL postURL = new URL("http://www.google.com/calendar/feeds/"+agenda+"/private/full");
 			CalendarEventEntry myEvent = new CalendarEventEntry();
 
